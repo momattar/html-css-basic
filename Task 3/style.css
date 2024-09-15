@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, Times New Roman, Times, serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+header {
+  background-color: rgb(135, 110, 110);
+  color: white;
+  padding: 20px;
+}
+
+.profile-pic img {
+  width: 75px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.header-text {
+  margin-left: 20px;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.header-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.experience h2,
+.education h2,
+.contact h2,
+.skills h2 {
+  background-color: rgb(228, 209, 209);
+  padding: 10px;
+  margin: 20px 0 10px 0;
+}
+
+.job,
+.education-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.title,
+.company {
+  margin-bottom: 10px;
+}
+
+.title strong {
+  display: inline-block;
+  width: 60%;
+}
+
+.title span {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+
+.footer-section {
+  margin-top: 20px;
+}
+
+.contact,
+.skills {
+  width: 45%;
+  float: left;
+}
+
+.contact {
+  margin-right: 5%;
+}
+
+.skills {
+  margin-left: 5%;
+}
+
+.skills p {
+  margin: 10px 0;
+}
+
+.bar {
+  display: inline-block;
+  /* width: 60%; */
+  height: 10px;
+  background-color: #ddd;
+  margin-left: 10px;
+}
+
