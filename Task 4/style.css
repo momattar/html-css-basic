@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.pic img {
+    border-radius: 50%;
+    width: 100px;
+    height: 120px;
+    margin-right: 25px;
+}
+
+.info h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #555;
+}
+.point{
+    margin-bottom: 10px;
+}
+.point h3, .point h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.point p, .point p {
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+}
+
+ul {
+    list-style: disc inside;
+    font-size: 14px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #ddd;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
